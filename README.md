@@ -10,31 +10,12 @@
 </div>
 
 
-<h5 align="center">
-    <p>
-        <a href="https://arxiv.org/abs/2601.08275">Paper</a> |
-        <a href="https://www.mtandhj.com/slides/mpt/">Slide</a>
-    </p>
-</h4>
-
-## 📊 Experimental Results
-
-<div align="center">
-  <img src="assets/results.png" alt="results">
-</div>
-
-
-
 ## ⚙️ Requirements
 
-<h5 align="center">
-    <p>
-        Python == 3.10.18</a> |
-        <a href="https://pytorch.org/">PyTorch == 2.5.1</a> |
-        <a href="https://github.com/huggingface/transformers.git">Transformer == 4.56.2</a> |
-        <a href="https://github.com/MTandHJ/freerec">FreeRec == 0.9.5</a>
-    </p>
-</h4>
+
+```
+conda create -n MPT python=3.10;conda activate MPT;bash setup.sh
+```
 
 ## 🚀 Usage
 
@@ -92,18 +73,3 @@
 
 > [!NOTE]
 > To reproduce the results presented in the paper, one should follow the steps outlined in [data/README.md](data/README.md) and [models/README.md](models/README.md) to download the processed datasets and pre-trained models.
-
-## Acknowledgements
-
-1. [Simon-Lepage/MarkovICL](https://github.com/Simon-Lepage/MarkovICL): We sincerely thank Simon Lepage for sharing the code.
-
-## Citation
-
-```
-@article{xu2025mpt,
-  title={Markovian pre-trained transformer for next-item recommendation},
-  author={Xu, Cong and Li, Guoliang and Wang, Jun and Zhang, Wei},
-  journal={arXiv preprint arXiv:2601.08275},
-  year={2026}
-}
-```
