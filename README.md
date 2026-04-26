@@ -1,15 +1,4 @@
 
-<div align="center">
-  <img src="assets/logo.png" alt="Logo">
-</div>
-
-**Markovian Pre-trained Transformer for Next-Item Recommendation:** ✅ 100% pre-trained on synthetic Markov chains; ✅ better transferability.
-
-<div align="center">
-  <img src="assets/vs.png" alt="VS">
-</div>
-
-
 ## ⚙️ Requirements
 
 
@@ -43,11 +32,6 @@ conda create -n MPT python=3.10;conda activate MPT;bash setup.sh
 |
 └── sampler.py # sampling Markov trajectories
 ```
-
-
-<div align="center">
-  <img src="assets/overview.png" alt="overview">
-</div>
 
 ### Markovian Pre-Training
 
